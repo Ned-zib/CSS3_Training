@@ -1,0 +1,41 @@
+/**Pseudo Element selectors**/
+
+
+/**Just the first line is affected**/
+
+p::first-line {
+    color: orange;
+}
+
+ul::first-line {
+    color: orange;
+}
+
+
+/**Just the first letter is affected**/
+
+p::first-letter {
+    color: blue;
+}
+
+ul::first-letter {
+    color: blue;
+}
+
+
+/**you can use to insert something
+** before the element**/
+
+h1::before {
+    color: green;
+    content: "Before thing!, ";
+}
+
+
+/**you can use to insert something
+** after the element**/
+
+h1::after {
+    color: green;
+    content: ", After thing!,";
+}

@@ -1,0 +1,31 @@
+.profileCard {
+    width: 30%;
+    height: auto;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: center;
+    align-content: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa {
+    color: black;
+}
+
+.profileCard button {
+    background-color: black;
+    margin-top: 10%;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    width: 100%;
+    height: 10%;
+    border: none;
+    outline: 0;
+}
+
+.profileCard:hover button {
+    transition: 0.1s linear 0s;
+    opacity: 0.7;
+}

@@ -1,0 +1,39 @@
+/**Selectors*/
+
+
+/** Universal selector '*' */
+
+p>* {
+    color: red;
+}
+
+
+/**Type selector*/
+
+h1 {
+    color: blue;
+}
+
+
+/**Compound selector*/
+
+h2,
+h3,
+h4 {
+    color: coral;
+}
+
+
+/**Class selector*/
+
+.myclass1 {
+    color: yellow;
+    background-color: black;
+}
+
+
+/**By unique ID*/
+
+#myid {
+    color: blueviolet;
+}

@@ -1,0 +1,38 @@
+/**Works when the user clic on it*/
+
+.myclass1:active {
+    font-size: 50px;
+}
+
+.myclass1:active+p {
+    font-size: 7px;
+}
+
+
+/**when the clic is over the item**/
+
+.mylist li {
+    background-color: green;
+}
+
+.mylist li:hover {
+    background-color: red;
+}
+
+
+/**focus**/
+
+#email_status {
+    display: none;
+}
+
+#email:focus~#email_status {
+    display: inline;
+}
+
+
+/***/
+
+input:focus {
+    background-color: seagreen;
+}

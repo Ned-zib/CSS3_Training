@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+.move {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    animation-name: Aright;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes Aright {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(400px);
+    }
+}

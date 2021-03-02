@@ -1,0 +1,48 @@
+/**Structural selectors**/
+
+
+/**when you have a parent with more than one p in this case
+** just the first child it will be affected*/
+
+p:first-child {
+    color: red;
+}
+
+
+/**when you have a parent with more than one h5 in this case
+** just the last child it will be affected*/
+
+h5:last-child {
+    color: blue;
+}
+
+
+/**when you have a parent with more than one li in this case
+** just the fisrt li child it will be affected*/
+
+li:first-of-type {
+    color: yellow;
+    background-color: black;
+}
+
+
+/**when you have a parent with just one child*/
+
+button:only-child {
+    background-color: chocolate;
+}
+
+
+/**when you have a parent with just one child of the type
+** does not matter if there is another type*/
+
+h2:only-of-type {
+    background-color: rebeccapurple;
+}
+
+
+/**Empty element*/
+
+li:empty {
+    background-color: seagreen;
+}

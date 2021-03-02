@@ -1,0 +1,9 @@
+/** ID get higher priotity than class in css */
+
+.myclass{
+    color: red;
+}
+
+#main{
+    color:blue;
+}

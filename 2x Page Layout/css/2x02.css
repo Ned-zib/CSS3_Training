@@ -1,0 +1,46 @@
+#container {
+    width: 50%;
+    padding: 5%;
+}
+
+
+/**Z-index is like in a 3d caterian map, the higher values
+** will be placed on the top**/
+
+nav {
+    background-color: slateblue;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    color: yellow;
+    z-index: 1;
+}
+
+nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.div1 {
+    background-color: blue;
+    color: white;
+    position: absolute;
+    right: 0px;
+    width: 20%;
+}
+
+.div2 {
+    background-color: black;
+    color: yellow;
+}
+
+.div3 {
+    background-color: tomato;
+    color: skyblue;
+}
+
+p {
+    padding: 1em;
+}

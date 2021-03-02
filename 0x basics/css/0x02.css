@@ -1,0 +1,22 @@
+body{
+    background-image: url(../images/bg.jpg);
+}
+hgroup{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-image: url(../images/bg_colours.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+h2{
+    font-size: 180%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 300%;
+    color: darkblue;
+    word-spacing: 1em;
+}

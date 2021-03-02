@@ -1,0 +1,36 @@
+/** Descendant combinators
+** just take in count in this case the
+** childs li elements in a div*/
+
+div li {
+    color: red;
+}
+
+
+/** Descendant combinators
+** just take in count in this case the
+** direct child p elements in a div*/
+
+div>p {
+    color: blue;
+}
+
+
+/** Adjacent sibling
+** when its a p adjacent sibling
+** to a h3 just the adjacent*/
+
+h3+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+
+/** General sibling
+** when its a p adjacent sibling
+** to a h3 works with all the adjacent*/
+
+h2~p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}

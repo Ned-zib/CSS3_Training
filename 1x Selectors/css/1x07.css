@@ -1,0 +1,13 @@
+/**Target*/
+
+p:target {
+    color: violet;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}

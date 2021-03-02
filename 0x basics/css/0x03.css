@@ -1,0 +1,18 @@
+h1{
+    /** Turns the first letter of each word in capital */
+    text-transform: capitalize;
+}
+
+h2{
+    /** Space between words em or px*/
+    word-spacing: 1em;
+    letter-spacing: 1em;
+}
+
+p{  
+    /** Identation of the first line % or px*/
+    text-indent: 5%;
+    /** Is used to generate space between the element
+    ** and the border of the container*/
+    padding: 1em;
+}

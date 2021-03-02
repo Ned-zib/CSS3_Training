@@ -1,0 +1,57 @@
+.menu {
+    height: 306x;
+    width: 600px;
+    margin: auto;
+    border: 1px solid RGBA(0, 0, 0, .4);
+    font-family: calibri, monospace;
+}
+
+.button {
+    width: 150px;
+    height: 100px;
+    background: #333;
+    border: 1px solid white;
+    color: #e7e7e7;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.content {
+    background: #f3f3f3;
+    width: 440px;
+    height: 300px;
+    margin-left: 155px;
+    border: 1px solid #e7e7e7;
+    float: center;
+    position: absolute;
+    align-items: center;
+    display: none;
+    justify-content: center;
+    top: 34%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+body {
+    display: flex;
+    margin: auto;
+}
+
+.button:hover {
+    background-color: #237AFF;
+}
+
+.button:focus {
+    background-color: #237AFF;
+}
+
+.button:focus+.content {
+    display: flex;
+}

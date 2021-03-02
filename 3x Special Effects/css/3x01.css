@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    font-size: 250px;
+}
+
+#front {
+    color: teal;
+    min-height: 500px;
+    max-width: 300px;
+    opacity: 0.8;
+}
+
+#back {
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+}

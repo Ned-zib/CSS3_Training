@@ -1,0 +1,119 @@
+/**FLIP 3D Y**/
+
+.flip3DY {
+    width: 240px;
+    height: 200px;
+    margin: 1%;
+    float: left;
+}
+
+.flip3DY>.front {
+    position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+    background-color: orangered;
+    width: 240px;
+    height: 200px;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+}
+
+.flip3DY>.back {
+    position: absolute;
+    transform: perspective(600px) rotateY(180deg);
+    background-color: lightblue;
+    width: 240px;
+    height: 200px;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+}
+
+.flip3DY:hover>.front {
+    transform: perspective( 600px) rotateY(-180deg);
+}
+
+.flip3DY:hover>.back {
+    transform: perspective( 600px) rotateY(0deg);
+}
+
+
+/**FLIP 3D X**/
+
+.flip3DX {
+    width: 240px;
+    height: 200px;
+    margin: 1%;
+    float: left;
+}
+
+.flip3DX>.front {
+    position: absolute;
+    transform: perspective(600px) rotateX(0deg);
+    background-color: orangered;
+    width: 240px;
+    height: 200px;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+}
+
+.flip3DX>.back {
+    position: absolute;
+    transform: perspective(600px) rotateX(180deg);
+    background-color: lightblue;
+    width: 240px;
+    height: 200px;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+}
+
+.flip3DX:hover>.front {
+    transform: perspective( 600px) rotateX(-180deg);
+}
+
+.flip3DX:hover>.back {
+    transform: perspective( 600px) rotateX(0deg);
+}
+
+
+/**FLIP 3D YX**/
+
+.flip3DYX {
+    width: 240px;
+    height: 200px;
+    margin: 1%;
+    float: left;
+}
+
+.flip3DYX>.front {
+    position: absolute;
+    transform: perspective(600px) rotate3d(-1, -1, 0, 0deg);
+    background-color: orangered;
+    width: 240px;
+    height: 200px;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+}
+
+.flip3DYX>.back {
+    position: absolute;
+    transform: perspective(600px) rotate3d(-1, -1, 0, 180deg);
+    background-color: lightblue;
+    width: 240px;
+    height: 200px;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+}
+
+.flip3DYX:hover>.front {
+    transform: perspective( 600px) rotate3d(-1, -1, 0, 180deg);
+}
+
+.flip3DYX:hover>.back {
+    transform: perspective( 600px) rotate3d(-1, -1, 0, 0deg);
+    ;
+}
